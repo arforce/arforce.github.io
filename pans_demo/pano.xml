@@ -11,7 +11,7 @@
       <start projection="4" fov="91.53" pan="179.42" tilt="-24.16"/>
       <flyin projection="4" fov="91.53" pan="179.42" tilt="-24.16"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" scaletofit="1" fov="120" pan="360" fovstereographic="270" tilt="90"/>
+      <max fovfisheye="360" scaletofit="1" fov="84.16" pan="360" fovstereographic="270" tilt="90"/>
     </view>
     <userdata longitude="60.583311" nodeid="node1" title="" description="" tags="Коридор" customnodeid="" source="" heading="292.5" altitude="309.91" datetime="23-Jun-21 11:57" author="" copyright="" comment="" info="" latitude="56.820622"/>
     <hotspots height="20" wordwrap="1" width="180">
@@ -37,7 +37,7 @@
       <start projection="4" fov="70" pan="76.99" tilt="-19.43"/>
       <flyin projection="4" fov="70" pan="76.99" tilt="-19.43"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" scaletofit="1" fov="70" pan="360" fovstereographic="270" tilt="90"/>
+      <max fovfisheye="360" scaletofit="1" fov="70.23" pan="360" fovstereographic="270" tilt="90"/>
     </view>
     <userdata longitude="60.583061" nodeid="node3" title="" description="" tags="Гостиная" customnodeid="" source="" heading="0" altitude="297.36" datetime="23-Jun-21 11:55" author="" copyright="" comment="" info="" latitude="56.821014"/>
     <hotspots height="20" wordwrap="1" width="180">
@@ -59,10 +59,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="202.5" fovmode="0">
-      <start projection="4" fov="70" pan="-80.43" tilt="-13.49"/>
-      <flyin projection="4" fov="70" pan="-80.44" tilt="-13.49"/>
+      <start projection="4" fov="107.28" pan="-103.94" tilt="-11.81"/>
+      <flyin projection="4" fov="107.28" pan="-103.94" tilt="-11.81"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" scaletofit="1" fov="120" pan="360" fovstereographic="270" tilt="90"/>
+      <max fovfisheye="360" scaletofit="1" fov="84.75" pan="360" fovstereographic="270" tilt="90"/>
     </view>
     <userdata longitude="60.583167" nodeid="node4" title="" description="" tags="Кухня" customnodeid="" source="" heading="202.5" altitude="246.76" datetime="23-Jun-21 12:06" author="" copyright="" comment="" info="" latitude="56.820686"/>
     <hotspots height="20" wordwrap="1" width="180">
