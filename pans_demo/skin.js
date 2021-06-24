@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.11/18043
 // Filename: cardboard.ggsk
-// Generated 2021-06-23T17:22:04
+// Generated 2021-06-23T17:34:45
 
 function pano2vrSkin(player,base) {
 	player.addVariable('ht_ani', 2, false);
