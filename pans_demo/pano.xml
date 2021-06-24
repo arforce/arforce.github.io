@@ -9,9 +9,9 @@
     </input>
     <view fovmode="0" pannorth="292.5">
       <start pan="179.42" projection="4" tilt="-24.16" fov="91.53"/>
-      <flyin pan="179.42" projection="4" tilt="-24.16" fov="91.53"/>
-      <min pan="0" tilt="-90" fov="80"/>
-      <max scaletofit="1" pan="360" fovfisheye="360" fovstereographic="270" tilt="90" fov="120"/>
+      <flyin pan="179.42" projection="4" tilt="-24.16" fov="90"/>
+      <min pan="0" tilt="-90" fov="90"/>
+      <max scaletofit="1" pan="360" fovfisheye="360" fovstereographic="270" tilt="90" fov="140"/>
     </view>
     <userdata copyright="" comment="" customnodeid="" nodeid="node1" description="" datetime="23-Jun-21 11:57" author="" longitude="60.583311" source="" altitude="309.91" heading="292.5" info="" latitude="56.820622" title="" tags="Коридор"/>
     <hotspots wordwrap="1" height="20" width="180">
@@ -35,9 +35,9 @@
     </input>
     <view fovmode="0" pannorth="0">
       <start pan="76.99" projection="4" tilt="-19.43" fov="70"/>
-      <flyin pan="76.99" projection="4" tilt="-19.43" fov="70"/>
-      <min pan="0" tilt="-90" fov="80"/>
-      <max scaletofit="1" pan="360" fovfisheye="360" fovstereographic="270" tilt="90" fov="120"/>
+      <flyin pan="76.99" projection="4" tilt="-19.43" fov="90"/>
+      <min pan="0" tilt="-90" fov="90"/>
+      <max scaletofit="1" pan="360" fovfisheye="360" fovstereographic="270" tilt="90" fov="140"/>
     </view>
     <userdata copyright="" comment="" customnodeid="" nodeid="node3" description="" datetime="23-Jun-21 11:55" author="" longitude="60.583061" source="" altitude="297.36" heading="0" info="" latitude="56.821014" title="" tags="Гостиная"/>
     <hotspots wordwrap="1" height="20" width="180">
@@ -60,9 +60,9 @@
     </input>
     <view fovmode="0" pannorth="202.5">
       <start pan="-103.94" projection="4" tilt="-11.81" fov="107.28"/>
-      <flyin pan="-103.94" projection="4" tilt="-11.81" fov="107.28"/>
-      <min pan="0" tilt="-90" fov="80"/>
-      <max scaletofit="1" pan="360" fovfisheye="360" fovstereographic="270" tilt="90" fov="120"/>
+      <flyin pan="-103.94" projection="4" tilt="-11.81" fov="90"/>
+      <min pan="0" tilt="-90" fov="90"/>
+      <max scaletofit="1" pan="360" fovfisheye="360" fovstereographic="270" tilt="90" fov="140"/>
     </view>
     <userdata copyright="" comment="" customnodeid="" nodeid="node4" description="" datetime="23-Jun-21 12:06" author="" longitude="60.583167" source="" altitude="246.76" heading="202.5" info="" latitude="56.820686" title="" tags="Кухня"/>
     <hotspots wordwrap="1" height="20" width="180">
