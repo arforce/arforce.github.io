@@ -228,6 +228,7 @@
       <hotspot skinid="ht_node" tilt="-6.98" description="" target="" url="{node13}" title="" id="Point02" pan="-294.85"/>
       <hotspot skinid="ht_node" tilt="-4.73" description="" target="" url="{node12}" title="" id="Point03" pan="-264.27"/>
       <hotspot skinid="ht_node" tilt="-14.07" distance="2.01996" description="" target="" url="{node2}" title="" id="Point04" pan="-224.66"/>
+      <hotspot skinid="ht_node" tilt="-9.96" distance="24.076" description="" target="" url="{node1}" title="" id="Point05" pan="-215.2"/>
     </hotspots>
     <media/>
     <transition zoomafterinfov="90" zoomin="0" blendcolor="0x000000" enabled="1" zoomoutpause="1" softedge="0" blendtime="1" type="crossdissolve" zoomafteroutfov="20" zoomspeed="2" zoomfov="20" zoomout="0"/>

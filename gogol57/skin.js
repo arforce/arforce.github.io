@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.11/18043
 // Filename: test2.ggsk
-// Generated 2021-06-26T09:33:32
+// Generated 2021-06-26T09:42:09
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -686,11 +686,11 @@ function pano2vrSkin(player,base) {
 		el.ggType='scrollarea';
 		hs ='';
 		hs+='border : 0px solid #000000;';
-		hs+='bottom : 10px;';
 		hs+='height : 100px;';
 		hs+='left : -10000px;';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
+		hs+='top : 0px;';
 		hs+='visibility : inherit;';
 		hs+='width : 100%;';
 		hs+='pointer-events:none;';
@@ -715,15 +715,15 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._thumbnail_menu.ggCurrentLogicStatePosition != newLogicStatePosition) {
 				me._thumbnail_menu.ggCurrentLogicStatePosition = newLogicStatePosition;
-				me._thumbnail_menu.style[domTransition]='left 0s, bottom 0s, opacity 500ms ease 0ms';
+				me._thumbnail_menu.style[domTransition]='left 0s, top 0s, opacity 500ms ease 0ms';
 				if (me._thumbnail_menu.ggCurrentLogicStatePosition == 0) {
 					this.ggDx = 0;
-					me._thumbnail_menu.style.bottom='80px';
+					me._thumbnail_menu.style.top='80px';
 					me._thumbnail_menu.ggUpdatePosition(true);
 				}
 				else {
 					me._thumbnail_menu.ggDx=0;
-					me._thumbnail_menu.style.bottom='10px';
+					me._thumbnail_menu.style.top='0px';
 					me._thumbnail_menu.ggUpdatePosition(true);
 				}
 			}
@@ -741,7 +741,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._thumbnail_menu.ggCurrentLogicStateAlpha != newLogicStateAlpha) {
 				me._thumbnail_menu.ggCurrentLogicStateAlpha = newLogicStateAlpha;
-				me._thumbnail_menu.style[domTransition]='left 0s, bottom 0s, opacity 500ms ease 0ms';
+				me._thumbnail_menu.style[domTransition]='left 0s, top 0s, opacity 500ms ease 0ms';
 				if (me._thumbnail_menu.ggCurrentLogicStateAlpha == 0) {
 					setTimeout(function() { if (me._thumbnail_menu.style.opacity == 0.0) { me._thumbnail_menu.style.visibility="hidden"; } }, 505);
 					me._thumbnail_menu.style.opacity=0;
