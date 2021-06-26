@@ -26,7 +26,7 @@
       <hotspot id="Point07" skinid="ht_node" pan="-235.85" distance="4.1208" tilt="-7.05" title="" target="" description="" url="{node14}"/>
     </hotspots>
     <media>
-      <lensflare id="Lensflare01" pan="-343.690" blinding="50.000" color="0xffffff" tilt="14.300" type="1" alpha="80.000"/>
+      <lensflare id="Lensflare01" pan="-343.690" blinding="50.000" color="0xffffff" tilt="14.300" type="3" alpha="80.000"/>
     </media>
     <transition blendcolor="0x000000" zoomout="0" zoomin="0" zoomafterinfov="90" type="crossdissolve" softedge="0" zoomoutpause="1" enabled="1" zoomfov="20" blendtime="1" zoomspeed="2" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
@@ -224,11 +224,11 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label wordwrap="1" backgroundcolor="0xffffff" width="180" textcolor="0x000000" textalpha="1" enabled="1" backgroundalpha="1" background="1" bordercolor="0x000000" height="20" borderalpha="1" borderradius="1" border="1"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot id="Point01" skinid="ht_node" pan="-269.96" distance="20.8289" tilt="-20.55" title="" target="" description="" url="{node10}"/>
-      <hotspot id="Point02" skinid="ht_node" pan="-294.85" tilt="-6.98" title="" target="" description="" url="{node13}"/>
-      <hotspot id="Point03" skinid="ht_node" pan="-264.27" tilt="-4.73" title="" target="" description="" url="{node12}"/>
-      <hotspot id="Point04" skinid="ht_node" pan="-224.66" distance="2.01996" tilt="-14.07" title="" target="" description="" url="{node2}"/>
-      <hotspot id="Point05" skinid="ht_node" pan="-215.2" distance="24.076" tilt="-9.96" title="" target="" description="" url="{node1}"/>
+      <hotspot id="Point01" skinid="ht_node" pan="-101.34" distance="20.8289" tilt="-23.72" title="" target="" description="" url="{node10}"/>
+      <hotspot id="Point02" skinid="ht_node" pan="-126.6" tilt="-10.29" title="" target="" description="" url="{node13}"/>
+      <hotspot id="Point03" skinid="ht_node" pan="-99.31" tilt="-6.23" title="" target="" description="" url="{node12}"/>
+      <hotspot id="Point04" skinid="ht_node" pan="-56.5" distance="2.01996" tilt="-14.29" title="" target="" description="" url="{node2}"/>
+      <hotspot id="Point05" skinid="ht_node" pan="-44.49" distance="24.076" tilt="-10.46" title="" target="" description="" url="{node1}"/>
     </hotspots>
     <media/>
     <transition blendcolor="0x000000" zoomout="0" zoomin="0" zoomafterinfov="90" type="crossdissolve" softedge="0" zoomoutpause="1" enabled="1" zoomfov="20" blendtime="1" zoomspeed="2" zoomafteroutfov="20"/>
@@ -290,7 +290,9 @@
       <hotspot id="Point07" skinid="ht_node" pan="-128.21" tilt="-8.33" title="" target="" description="" url="{node14}"/>
       <hotspot id="Point08" skinid="ht_node" pan="-123.1" tilt="-7.81" title="" target="" description="" url="{node16}"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" pan="-260.280" blinding="50.000" color="0xffffff" tilt="24.260" type="3" alpha="80.000"/>
+    </media>
     <transition blendcolor="0x000000" zoomout="0" zoomin="0" zoomafterinfov="90" type="crossdissolve" softedge="0" zoomoutpause="1" enabled="1" zoomfov="20" blendtime="1" zoomspeed="2" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
     <control lockedkeyboard="0" sensitivity="8" invertwheel="0" contextprojections="0" contextfullscreen="1" simulatemass="1" hideabout="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboardzoom="0"/>
@@ -312,8 +314,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label wordwrap="1" backgroundcolor="0xffffff" width="180" textcolor="0x000000" textalpha="1" enabled="1" backgroundalpha="1" background="1" bordercolor="0x000000" height="20" borderalpha="1" borderradius="1" border="1"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot id="Point01" skinid="ht_url" pan="-109.99" tilt="-10.01" title="" target="_blank" description="" url=""/>
-      <hotspot id="Point02" skinid="ht_url" pan="-116.33" tilt="-14.96" title="" target="_blank" description="" url=""/>
+      <hotspot id="Point01" skinid="ht_node" pan="-109.99" distance="9.19118" tilt="-10.01" title="" target="" description="" url="{node19}"/>
+      <hotspot id="Point02" skinid="ht_node" pan="-116.33" tilt="-14.96" title="" target="" description="" url="{node16}"/>
       <hotspot id="Point03" skinid="ht_node" pan="-104.39" tilt="-20.93" title="" target="" description="" url="{node12}"/>
       <hotspot id="Point04" skinid="ht_node" pan="-183.56" tilt="-16.35" title="" target="" description="" url="{node15}"/>
     </hotspots>
@@ -420,7 +422,9 @@
       <hotspot id="Point01" skinid="ht_node" pan="-30.07" tilt="-12.55" title="" target="" description="" url="{node17}"/>
       <hotspot id="Point02" skinid="ht_node" pan="-62.25" tilt="-9.06" title="" target="" description="" url="{node16}"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" pan="-157.020" blinding="50.000" color="0xffffff" tilt="40.440" type="3" alpha="80.000"/>
+    </media>
     <transition blendcolor="0x000000" zoomout="0" zoomin="0" zoomafterinfov="90" type="crossdissolve" softedge="0" zoomoutpause="1" enabled="1" zoomfov="20" blendtime="1" zoomspeed="2" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
     <control lockedkeyboard="0" sensitivity="8" invertwheel="0" contextprojections="0" contextfullscreen="1" simulatemass="1" hideabout="0" rubberband="0" lockedmouse="0" dblclickfullscreen="0" lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboardzoom="0"/>
