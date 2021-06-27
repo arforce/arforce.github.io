@@ -28,8 +28,21 @@
     			background-color:  rgba(255,255,255,0.5);
 			}
 		</style>	
+		
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-BQHP5LXK00"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-BQHP5LXK00');
+		</script>
+
+
 	</head>
 	<body>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
 		<script type="text/javascript" src="pano2vr_player.js">
 		</script>
 		<script type="text/javascript" src="skin.js">
@@ -40,8 +53,13 @@
 		<br>Loading...<br><br>
 		</div>
 		<script type="text/javascript">
+	
+			// create the panorama player with the container
 			pano=new pano2vrPlayer("container");
+			// add the skin object
 			skin=new pano2vrSkin(pano);
+			// load the configuration
+		
 			window.addEventListener("load", function() {
 				pano.readConfigUrlAsync("pano.xml");
 			});
@@ -49,6 +67,7 @@
 		<noscript>
 			<p><b>Please enable Javascript!</b></p>
 		</noscript>
+<!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - --> 
 		<!-- Hack needed to hide the url bar on iOS 9, iPhone 5s --> 
 		<div style="width:1px;height:1px;"></div>
 	</body>
