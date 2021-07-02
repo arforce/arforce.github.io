@@ -41,17 +41,13 @@
 		<br>Loading...<br><br>
 		</div>
 		<script type="text/javascript">
-	
-			// create the panorama player with the container
 			pano=new pano2vrPlayer("container");
-			// add the skin object
 			skin=new pano2vrSkin(pano);
-			// load the configuration
 		
 			window.addEventListener("load", function() {
 				pano.readConfigUrlAsync("pano.xml");
 				
-				setTimeout(function () { pano.setUseGyro(!(pano.getUseGyro())); }, 3000)
+				setTimeout(function () { pano.setUseGyro(!(pano.getUseGyro())); }, 100)
 			});
 		</script>
 		<noscript>

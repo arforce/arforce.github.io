@@ -1,11 +1,3 @@
-//////////////////////////////////////////////////////////////////////
-// Pano2VR 6.1.11/18043 HTML5/CSS3 & WebGL Panorama Player          //
-// License: BKYM.COM                                                //
-// (c) 2021, Garden Gnome Software, http://ggnome.com               //
-//////////////////////////////////////////////////////////////////////
-
-/*
- this.useWebVR*/
 var ll="function"==typeof Object.defineProperties?Object.defineProperty:function(x,p,m){x!=Array.prototype&&x!=Object.prototype&&(x[p]=m.value)},nl="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this;function ol(x,p){if(p){var m=nl;x=x.split(".");for(var d=0;d<x.length-1;d++){var c=x[d];c in m||(m[c]={});m=m[c]}x=x[x.length-1];d=m[x];p=p(d);p!=d&&null!=p&&ll(m,x,{configurable:!0,writable:!0,value:p})}}var pl;
 if("function"==typeof Object.setPrototypeOf)pl=Object.setPrototypeOf;else{var vl;a:{var wl={a:!0},xl={};try{xl.__proto__=wl;vl=xl.a;break a}catch(x){}vl=!1}pl=vl?function(x,p){x.__proto__=p;if(x.__proto__!==p)throw new TypeError(x+" is not extensible");return x}:null}var yl=pl;ol("Object.setPrototypeOf",function(x){return x||yl});
 ol("Array.prototype.fill",function(x){return x?x:function(p,m,d){var c=this.length||0;0>m&&(m=Math.max(0,c+m));if(null==d||d>c)d=c;d=Number(d);0>d&&(d=Math.max(0,c+d));for(m=Number(m||0);m<d;m++)this[m]=p;return this}});function zl(x){var p=0;return function(){return p<x.length?{done:!1,value:x[p++]}:{done:!0}}}function Al(){Al=function(){};nl.Symbol||(nl.Symbol=Bl)}function Cl(x,p){this.Eo=x;ll(this,"description",{configurable:!0,writable:!0,value:p})}Cl.prototype.toString=function(){return this.Eo};
