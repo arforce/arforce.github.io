@@ -200,7 +200,7 @@
     <media/>
     <transition zoomin="0" zoomspeed="2" zoomoutpause="0" zoomout="0" enabled="1" blendtime="1" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" dblclickfullscreen="1" sensitivity="1" invertwheel="1" contextfullscreen="1" speedwheel="1" hideabout="1">
+    <control lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" dblclickfullscreen="1" sensitivity="20" invertwheel="1" contextfullscreen="1" speedwheel="1" hideabout="1">
       <menulink url="https://arforce.github.io/" text="About"/>
     </control>
   </panorama>
