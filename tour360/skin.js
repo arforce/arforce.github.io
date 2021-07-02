@@ -1725,7 +1725,6 @@ function pano2vrSkin(player,base) {
 			player.setUseGyro(!(player.getUseGyro()));
 		}
 		
-		player.setUseGyro(!(player.getUseGyro()));
 
 		me._gyro.ggUpdatePosition=function (useTransition) {
 		}
@@ -3143,4 +3142,9 @@ function pano2vrSkin(player,base) {
 	player.addListener('activehotspotchanged', function(args) { me._thumbnail_cloner.callChildLogicBlocks_activehotspotchanged(); });
 	player.addListener('varchanged_opt_thumbnail_menu_tooltip_2', function(args) { me._thumbnail_cloner.callChildLogicBlocks_varchanged_opt_thumbnail_menu_tooltip_2(); });
 	me.skinTimerEvent();
+	
+	
+		
+		
+		setTimeout(function () { player.setUseGyro(!(player.getUseGyro())); }, 1200)
 };
