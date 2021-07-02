@@ -1482,7 +1482,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='bottom : 360px;';
+		hs+='bottom : 310px;';
 		hs+='height : 32px;';
 		hs+='left : 2%;';
 		hs+='position : absolute;';
@@ -1700,7 +1700,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='bottom : 260px;';
+		hs+='bottom : 210px;';
 		hs+='height : 32px;';
 		hs+='left : 2%;';
 		hs+='position : absolute;';
@@ -1967,7 +1967,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='bottom : 310px;';
+		hs+='bottom : 260px;';
 		hs+='height : 32px;';
 		hs+='left : 2%;';
 		hs+='position : absolute;';
@@ -2147,10 +2147,10 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='bottom : 210px;';
 		hs+='height : 32px;';
 		hs+='left : 2%;';
 		hs+='position : absolute;';
+		hs+='top : 20px;';
 		hs+='visibility : inherit;';
 		hs+='width : 32px;';
 		hs+='pointer-events:auto;';
@@ -2540,11 +2540,11 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
-		hs+='bottom : 410px;';
 		hs+='cursor : pointer;';
 		hs+='height : 32px;';
 		hs+='left : 2%;';
 		hs+='position : absolute;';
+		hs+='top : 70px;';
 		hs+='visibility : hidden;';
 		hs+='width : 32px;';
 		hs+='pointer-events:auto;';
@@ -2603,8 +2603,8 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='height : 32px;';
 		hs+='position : absolute;';
-		hs+='right : 2%;';
-		hs+='top : 2%;';
+		hs+='right : 20px;';
+		hs+='top : 20px;';
 		hs+='visibility : inherit;';
 		hs+='width : 64px;';
 		hs+='pointer-events:none;';
@@ -2650,8 +2650,8 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='cursor : pointer;';
 		hs+='height : 32px;';
-		hs+='left : 40px;';
 		hs+='position : absolute;';
+		hs+='right : 0px;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
 		hs+='width : 32px;';
@@ -2712,8 +2712,8 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='cursor : pointer;';
 		hs+='height : 32px;';
-		hs+='left : 0px;';
 		hs+='position : absolute;';
+		hs+='right : 40px;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
 		hs+='width : 32px;';
