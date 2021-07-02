@@ -1,292 +1,292 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.11" start="node1" apprev="18043">
-  <panorama hideabout="1" id="node1">
-    <input levelbiashidpi="1.000" overlap="1" width="2500" height="2500" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0">
-      <level preload="0" predecode="0" width="2500" height="2500"/>
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
-      <preview strip="1" color="0x808080"/>
+<tour start="node1" appversion="6.1.11" apprev="18043">
+  <panorama id="node1" hideabout="1">
+    <input height="2500" width="2500" leveltilesize="510" levelbias="0.400" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
+      <level height="2500" width="2500" predecode="0" preload="0"/>
+      <level height="1250" width="1250" predecode="0" preload="0"/>
+      <level height="625" width="625" predecode="0" preload="0"/>
+      <level height="312" width="312" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="100" tilt="-18.8" projection="4" pan="-16.11"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fov="30" tilt="-90" pan="0"/>
-      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <start tilt="-18.8" fov="100" projection="4" pan="-16.11"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="30" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="150" fovstereographic="270" scaletofit="1" pan="360"/>
     </view>
-    <userdata longitude="28.655481" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="grgdfrgd" nodeid="node1" heading="360" copyright="" latitude="41.077078" title="door"/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label bordercolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" border="1" borderalpha="1" textcolor="0x000000" height="20" textalpha="1" borderradius="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" distance="2.22799" description="" tilt="-21.09" id="Point01" url="{node2}" pan="-25.53" title=""/>
+    <userdata author="" info="" tags="Портфолио" heading="360" customnodeid="" comment="" latitude="41.077078" datetime="" nodeid="node1" description="grgdfrgd" longitude="28.655481" copyright="" source="" title="door"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" width="180" background="1" textalpha="1" enabled="1" borderradius="1" wordwrap="1" textcolor="0x000000" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot distance="2.22799" id="Point01" tilt="-21.09" target="$fwd" description="xzcxzc" url="{node2}" title="assadsad" skinid="ht_node" pan="-25.53"/>
     </hotspots>
     <media>
-      <sound ambientlevel="0.000" pansize="10.000" mode="1" level="1.000" nodechangekeep="1" startmutedmobile="0" loop="0" tilt="9.140" id="Element01" field="90.000" pan="-51.150" tiltsize="10.000">
+      <sound loop="0" ambientlevel="0.000" id="Element01" tilt="9.140" tiltsize="10.000" level="1.000" startmutedmobile="0" pansize="10.000" mode="1" nodechangekeep="1" field="90.000" pan="-51.150">
         <source url="media/LumenMedia - Upbeat Corporate_sensei_clean_edition.mp3"/>
       </sound>
     </media>
-    <transition blendcolor="0x000000" zoomspeed="2" zoomafteroutfov="20" enabled="1" blendtime="1" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomoutpause="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <transition zoomin="0" zoomspeed="2" zoomoutpause="0" zoomout="0" enabled="1" blendtime="1" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control sensitivity="1" invertwheel="0" hideabout="1" lockedkeyboard="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" speedwheel="1" contextprojections="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1">
-      <menulink text="About" url="https://arforce.github.io/"/>
+    <control lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" dblclickfullscreen="1" sensitivity="1" invertwheel="1" contextfullscreen="1" speedwheel="1" hideabout="1">
+      <menulink url="https://arforce.github.io/" text="About"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node2">
-    <input levelbiashidpi="1.000" overlap="1" width="2500" height="2500" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0">
-      <level preload="0" predecode="0" width="2500" height="2500"/>
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node2" hideabout="1">
+    <input height="2500" width="2500" leveltilesize="510" levelbias="0.400" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
+      <level height="2500" width="2500" predecode="0" preload="0"/>
+      <level height="1250" width="1250" predecode="0" preload="0"/>
+      <level height="625" width="625" predecode="0" preload="0"/>
+      <level height="312" width="312" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="100" tilt="-6.78" projection="4" pan="-8.79"/>
-      <flyin fov="70" tilt="-6.78" projection="4" pan="-8.79"/>
-      <min fov="30" tilt="-90" pan="0"/>
-      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <start tilt="-6.78" fov="100" projection="4" pan="-8.79"/>
+      <flyin tilt="-6.78" fov="70" projection="4" pan="-8.79"/>
+      <min tilt="-90" fov="30" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="150" fovstereographic="270" scaletofit="1" pan="360"/>
     </view>
-    <userdata longitude="28.655497" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node2" heading="360" copyright="" latitude="41.077094" title=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label bordercolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" border="1" borderalpha="1" textcolor="0x000000" height="20" textalpha="1" borderradius="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" distance="2.22799" description="" tilt="-12.94" id="Point01" url="{node1}" pan="-290.17" title=""/>
-      <hotspot target="" skinid="ht_node" distance="2.50244" description="" tilt="-22.39" id="Point02" url="{node3}" pan="-38.36" title=""/>
-      <hotspot target="" skinid="ht_node" distance="1.35946" description="" tilt="-16.59" id="Point03" url="{node5}" pan="-131.2" title=""/>
-      <hotspot target="" skinid="ht_node" distance="1.22314" description="" tilt="-20.78" id="Point04" url="{node6}" pan="-181.38" title=""/>
+    <userdata author="" info="" tags="Портфолио" heading="360" customnodeid="" comment="" latitude="41.077094" datetime="" nodeid="node2" description="" longitude="28.655497" copyright="" source="" title=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" width="180" background="1" textalpha="1" enabled="1" borderradius="1" wordwrap="1" textcolor="0x000000" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot distance="2.22799" id="Point01" tilt="-12.94" target="" description="" url="{node1}" title="" skinid="ht_node" pan="-290.17"/>
+      <hotspot distance="2.50244" id="Point02" tilt="-22.39" target="" description="" url="{node3}" title="" skinid="ht_node" pan="-38.36"/>
+      <hotspot distance="1.35946" id="Point03" tilt="-16.59" target="" description="" url="{node5}" title="" skinid="ht_node" pan="-131.2"/>
+      <hotspot distance="1.22314" id="Point04" tilt="-20.78" target="" description="" url="{node6}" title="" skinid="ht_node" pan="-181.38"/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" zoomspeed="2" zoomafteroutfov="20" enabled="1" blendtime="1" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomoutpause="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <transition zoomin="0" zoomspeed="2" zoomoutpause="0" zoomout="0" enabled="1" blendtime="1" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control sensitivity="1" invertwheel="0" hideabout="1" lockedkeyboard="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" speedwheel="1" contextprojections="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1">
-      <menulink text="About" url="https://arforce.github.io/"/>
+    <control lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" dblclickfullscreen="1" sensitivity="1" invertwheel="1" contextfullscreen="1" speedwheel="1" hideabout="1">
+      <menulink url="https://arforce.github.io/" text="About"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node3">
-    <input levelbiashidpi="1.000" overlap="1" width="2500" height="2500" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0">
-      <level preload="0" predecode="0" width="2500" height="2500"/>
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node3" hideabout="1">
+    <input height="2500" width="2500" leveltilesize="510" levelbias="0.400" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
+      <level height="2500" width="2500" predecode="0" preload="0"/>
+      <level height="1250" width="1250" predecode="0" preload="0"/>
+      <level height="625" width="625" predecode="0" preload="0"/>
+      <level height="312" width="312" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="100" tilt="-8.11" projection="4" pan="47.67"/>
-      <flyin fov="70" tilt="-8.11" projection="4" pan="47.67"/>
-      <min fov="30" tilt="-90" pan="0"/>
-      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <start tilt="-8.11" fov="100" projection="4" pan="47.67"/>
+      <flyin tilt="-8.11" fov="70" projection="4" pan="47.67"/>
+      <min tilt="-90" fov="30" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="150" fovstereographic="270" scaletofit="1" pan="360"/>
     </view>
-    <userdata longitude="28.655481" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node3" heading="360" copyright="" latitude="41.077075" title=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label bordercolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" border="1" borderalpha="1" textcolor="0x000000" height="20" textalpha="1" borderradius="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" distance="2.50244" description="" tilt="-16.76" id="Point01" url="{node2}" pan="-313.76" title=""/>
-      <hotspot target="" skinid="ht_node" distance="1.38201" description="" tilt="-26.09" id="Point02" url="{node4}" pan="-211.39" title=""/>
+    <userdata author="" info="" tags="Портфолио" heading="360" customnodeid="" comment="" latitude="41.077075" datetime="" nodeid="node3" description="" longitude="28.655481" copyright="" source="" title=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" width="180" background="1" textalpha="1" enabled="1" borderradius="1" wordwrap="1" textcolor="0x000000" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot distance="2.50244" id="Point01" tilt="-16.76" target="" description="" url="{node2}" title="" skinid="ht_node" pan="-313.76"/>
+      <hotspot distance="1.38201" id="Point02" tilt="-26.09" target="" description="" url="{node4}" title="" skinid="ht_node" pan="-211.39"/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" zoomspeed="2" zoomafteroutfov="20" enabled="1" blendtime="1" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomoutpause="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <transition zoomin="0" zoomspeed="2" zoomoutpause="0" zoomout="0" enabled="1" blendtime="1" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control sensitivity="1" invertwheel="0" hideabout="1" lockedkeyboard="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" speedwheel="1" contextprojections="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1">
-      <menulink text="About" url="https://arforce.github.io/"/>
+    <control lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" dblclickfullscreen="1" sensitivity="1" invertwheel="1" contextfullscreen="1" speedwheel="1" hideabout="1">
+      <menulink url="https://arforce.github.io/" text="About"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node4">
-    <input levelbiashidpi="1.000" overlap="1" width="2500" height="2500" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0">
-      <level preload="0" predecode="0" width="2500" height="2500"/>
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node4" hideabout="1">
+    <input height="2500" width="2500" leveltilesize="510" levelbias="0.400" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
+      <level height="2500" width="2500" predecode="0" preload="0"/>
+      <level height="1250" width="1250" predecode="0" preload="0"/>
+      <level height="625" width="625" predecode="0" preload="0"/>
+      <level height="312" width="312" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="100" tilt="-6.79" projection="4" pan="134.75"/>
-      <flyin fov="70" tilt="-6.79" projection="4" pan="134.75"/>
-      <min fov="30" tilt="-90" pan="0"/>
-      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <start tilt="-6.79" fov="100" projection="4" pan="134.75"/>
+      <flyin tilt="-6.79" fov="70" projection="4" pan="134.75"/>
+      <min tilt="-90" fov="30" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="150" fovstereographic="270" scaletofit="1" pan="360"/>
     </view>
-    <userdata longitude="28.655497" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node4" heading="360" copyright="" latitude="41.077078" title=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label bordercolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" border="1" borderalpha="1" textcolor="0x000000" height="20" textalpha="1" borderradius="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" distance="1.38201" description="" tilt="-25.8" id="Point01" url="{node3}" pan="-283.94" title=""/>
-      <hotspot target="" skinid="ht_node" distance="2.05477" description="" tilt="-24.56" id="Point02" url="{node5}" pan="-192.25" title=""/>
+    <userdata author="" info="" tags="Портфолио" heading="360" customnodeid="" comment="" latitude="41.077078" datetime="" nodeid="node4" description="" longitude="28.655497" copyright="" source="" title=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" width="180" background="1" textalpha="1" enabled="1" borderradius="1" wordwrap="1" textcolor="0x000000" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot distance="1.38201" id="Point01" tilt="-25.8" target="" description="" url="{node3}" title="" skinid="ht_node" pan="-283.94"/>
+      <hotspot distance="2.05477" id="Point02" tilt="-24.56" target="" description="" url="{node5}" title="" skinid="ht_node" pan="-192.25"/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" zoomspeed="2" zoomafteroutfov="20" enabled="1" blendtime="1" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomoutpause="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <transition zoomin="0" zoomspeed="2" zoomoutpause="0" zoomout="0" enabled="1" blendtime="1" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control sensitivity="1" invertwheel="0" hideabout="1" lockedkeyboard="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" speedwheel="1" contextprojections="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1">
-      <menulink text="About" url="https://arforce.github.io/"/>
+    <control lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" dblclickfullscreen="1" sensitivity="1" invertwheel="1" contextfullscreen="1" speedwheel="1" hideabout="1">
+      <menulink url="https://arforce.github.io/" text="About"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node5">
-    <input levelbiashidpi="1.000" overlap="1" width="2500" height="2500" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0">
-      <level preload="0" predecode="0" width="2500" height="2500"/>
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node5" hideabout="1">
+    <input height="2500" width="2500" leveltilesize="510" levelbias="0.400" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
+      <level height="2500" width="2500" predecode="0" preload="0"/>
+      <level height="1250" width="1250" predecode="0" preload="0"/>
+      <level height="625" width="625" predecode="0" preload="0"/>
+      <level height="312" width="312" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="100" tilt="-7.55" projection="4" pan="-19.22"/>
-      <flyin fov="70" tilt="-7.55" projection="4" pan="-19.22"/>
-      <min fov="30" tilt="-90" pan="0"/>
-      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <start tilt="-7.55" fov="100" projection="4" pan="-19.22"/>
+      <flyin tilt="-7.55" fov="70" projection="4" pan="-19.22"/>
+      <min tilt="-90" fov="30" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="150" fovstereographic="270" scaletofit="1" pan="360"/>
     </view>
-    <userdata longitude="28.655481" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node5" heading="360" copyright="" latitude="41.077092" title=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label bordercolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" border="1" borderalpha="1" textcolor="0x000000" height="20" textalpha="1" borderradius="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" distance="2.05477" description="" tilt="-25.74" id="Point01" url="{node4}" pan="-229.16" title=""/>
-      <hotspot target="" skinid="ht_node" distance="1.35946" description="" tilt="-20.24" id="Point02" url="{node2}" pan="-127.73" title=""/>
-      <hotspot target="" skinid="ht_node" distance="1.67337" description="" tilt="-29" id="Point03" url="{node6}" pan="-105.69" title=""/>
+    <userdata author="" info="" tags="Портфолио" heading="360" customnodeid="" comment="" latitude="41.077092" datetime="" nodeid="node5" description="" longitude="28.655481" copyright="" source="" title=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" width="180" background="1" textalpha="1" enabled="1" borderradius="1" wordwrap="1" textcolor="0x000000" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot distance="2.05477" id="Point01" tilt="-25.74" target="" description="" url="{node4}" title="" skinid="ht_node" pan="-229.16"/>
+      <hotspot distance="1.35946" id="Point02" tilt="-20.24" target="" description="" url="{node2}" title="" skinid="ht_node" pan="-127.73"/>
+      <hotspot distance="1.67337" id="Point03" tilt="-29" target="" description="" url="{node6}" title="" skinid="ht_node" pan="-105.69"/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" zoomspeed="2" zoomafteroutfov="20" enabled="1" blendtime="1" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomoutpause="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <transition zoomin="0" zoomspeed="2" zoomoutpause="0" zoomout="0" enabled="1" blendtime="1" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control sensitivity="1" invertwheel="0" hideabout="1" lockedkeyboard="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" speedwheel="1" contextprojections="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1">
-      <menulink text="About" url="https://arforce.github.io/"/>
+    <control lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" dblclickfullscreen="1" sensitivity="1" invertwheel="1" contextfullscreen="1" speedwheel="1" hideabout="1">
+      <menulink url="https://arforce.github.io/" text="About"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node6">
-    <input levelbiashidpi="1.000" overlap="1" width="2500" height="2500" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0">
-      <level preload="0" predecode="0" width="2500" height="2500"/>
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node6" hideabout="1">
+    <input height="2500" width="2500" leveltilesize="510" levelbias="0.400" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
+      <level height="2500" width="2500" predecode="0" preload="0"/>
+      <level height="1250" width="1250" predecode="0" preload="0"/>
+      <level height="625" width="625" predecode="0" preload="0"/>
+      <level height="312" width="312" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="100" tilt="-10.38" projection="4" pan="34.2"/>
-      <flyin fov="70" tilt="-10.38" projection="4" pan="34.2"/>
-      <min fov="30" tilt="-90" pan="0"/>
-      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <start tilt="-10.38" fov="100" projection="4" pan="34.2"/>
+      <flyin tilt="-10.38" fov="70" projection="4" pan="34.2"/>
+      <min tilt="-90" fov="30" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="150" fovstereographic="270" scaletofit="1" pan="360"/>
     </view>
-    <userdata longitude="28.655497" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node6" heading="360" copyright="" latitude="41.077083" title=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label bordercolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" border="1" borderalpha="1" textcolor="0x000000" height="20" textalpha="1" borderradius="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" distance="1.22314" description="" tilt="-22.46" id="Point01" url="{node2}" pan="-169.27" title=""/>
-      <hotspot target="" skinid="ht_node" distance="1.67337" description="" tilt="-29.29" id="Point02" url="{node5}" pan="-194.54" title=""/>
-      <hotspot target="" skinid="ht_node" distance="1.55673" description="" tilt="-42.81" id="Point03" url="{node10}" pan="-110.82" title=""/>
-      <hotspot target="" skinid="ht_node" distance="1.07669" description="" tilt="-27.94" id="Point04" url="{node7}" pan="-283.45" title=""/>
-      <hotspot target="" skinid="ht_node" distance="0.922038" description="" tilt="-19.5" id="Point05" url="{node8}" pan="-351.84" title=""/>
+    <userdata author="" info="" tags="Портфолио" heading="360" customnodeid="" comment="" latitude="41.077083" datetime="" nodeid="node6" description="" longitude="28.655497" copyright="" source="" title=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" width="180" background="1" textalpha="1" enabled="1" borderradius="1" wordwrap="1" textcolor="0x000000" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot distance="1.22314" id="Point01" tilt="-22.46" target="" description="" url="{node2}" title="" skinid="ht_node" pan="-169.27"/>
+      <hotspot distance="1.67337" id="Point02" tilt="-29.29" target="" description="" url="{node5}" title="" skinid="ht_node" pan="-194.54"/>
+      <hotspot distance="1.55673" id="Point03" tilt="-42.81" target="" description="" url="{node10}" title="" skinid="ht_node" pan="-110.82"/>
+      <hotspot distance="1.07669" id="Point04" tilt="-27.94" target="" description="" url="{node7}" title="" skinid="ht_node" pan="-283.45"/>
+      <hotspot distance="0.922038" id="Point05" tilt="-19.5" target="" description="" url="{node8}" title="" skinid="ht_node" pan="-351.84"/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" zoomspeed="2" zoomafteroutfov="20" enabled="1" blendtime="1" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomoutpause="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <transition zoomin="0" zoomspeed="2" zoomoutpause="0" zoomout="0" enabled="1" blendtime="1" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control sensitivity="1" invertwheel="0" hideabout="1" lockedkeyboard="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" speedwheel="1" contextprojections="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1">
-      <menulink text="About" url="https://arforce.github.io/"/>
+    <control lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" dblclickfullscreen="1" sensitivity="1" invertwheel="1" contextfullscreen="1" speedwheel="1" hideabout="1">
+      <menulink url="https://arforce.github.io/" text="About"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node7">
-    <input levelbiashidpi="1.000" overlap="1" width="2500" height="2500" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0">
-      <level preload="0" predecode="0" width="2500" height="2500"/>
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node7" hideabout="1">
+    <input height="2500" width="2500" leveltilesize="510" levelbias="0.400" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
+      <level height="2500" width="2500" predecode="0" preload="0"/>
+      <level height="1250" width="1250" predecode="0" preload="0"/>
+      <level height="625" width="625" predecode="0" preload="0"/>
+      <level height="312" width="312" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="100" tilt="-14" projection="4" pan="81"/>
-      <flyin fov="70" tilt="-14" projection="4" pan="81"/>
-      <min fov="30" tilt="-90" pan="0"/>
-      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <start tilt="-14" fov="100" projection="4" pan="81"/>
+      <flyin tilt="-14" fov="70" projection="4" pan="81"/>
+      <min tilt="-90" fov="30" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="150" fovstereographic="270" scaletofit="1" pan="360"/>
     </view>
-    <userdata longitude="28.655486" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node7" heading="360" copyright="" latitude="41.077078" title=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label bordercolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" border="1" borderalpha="1" textcolor="0x000000" height="20" textalpha="1" borderradius="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" distance="1.07669" description="" tilt="-27.37" id="Point01" url="{node6}" pan="-75.04" title=""/>
+    <userdata author="" info="" tags="Портфолио" heading="360" customnodeid="" comment="" latitude="41.077078" datetime="" nodeid="node7" description="" longitude="28.655486" copyright="" source="" title=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" width="180" background="1" textalpha="1" enabled="1" borderradius="1" wordwrap="1" textcolor="0x000000" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot distance="1.07669" id="Point01" tilt="-27.37" target="" description="" url="{node6}" title="" skinid="ht_node" pan="-75.04"/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" zoomspeed="2" zoomafteroutfov="20" enabled="1" blendtime="1" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomoutpause="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <transition zoomin="0" zoomspeed="2" zoomoutpause="0" zoomout="0" enabled="1" blendtime="1" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control sensitivity="1" invertwheel="0" hideabout="1" lockedkeyboard="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" speedwheel="1" contextprojections="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1">
-      <menulink text="About" url="https://arforce.github.io/"/>
+    <control lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" dblclickfullscreen="1" sensitivity="1" invertwheel="1" contextfullscreen="1" speedwheel="1" hideabout="1">
+      <menulink url="https://arforce.github.io/" text="About"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node8">
-    <input levelbiashidpi="1.000" overlap="1" width="2500" height="2500" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0">
-      <level preload="0" predecode="0" width="2500" height="2500"/>
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node8" hideabout="1">
+    <input height="2500" width="2500" leveltilesize="510" levelbias="0.400" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
+      <level height="2500" width="2500" predecode="0" preload="0"/>
+      <level height="1250" width="1250" predecode="0" preload="0"/>
+      <level height="625" width="625" predecode="0" preload="0"/>
+      <level height="312" width="312" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="100" tilt="-6.08" projection="4" pan="1.43"/>
-      <flyin fov="70" tilt="-6.08" projection="4" pan="1.43"/>
-      <min fov="30" tilt="-90" pan="0"/>
-      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <start tilt="-6.08" fov="100" projection="4" pan="1.43"/>
+      <flyin tilt="-6.08" fov="70" projection="4" pan="1.43"/>
+      <min tilt="-90" fov="30" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="150" fovstereographic="270" scaletofit="1" pan="360"/>
     </view>
-    <userdata longitude="28.655486" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node8" heading="360" copyright="" latitude="41.077083" title=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label bordercolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" border="1" borderalpha="1" textcolor="0x000000" height="20" textalpha="1" borderradius="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" distance="0.922038" description="" tilt="-27.98" id="Point01" url="{node6}" pan="-220.59" title=""/>
-      <hotspot target="" skinid="ht_node" distance="0.50293" description="" tilt="-27.64" id="Point02" url="{node9}" pan="-180.33" title=""/>
+    <userdata author="" info="" tags="Портфолио" heading="360" customnodeid="" comment="" latitude="41.077083" datetime="" nodeid="node8" description="" longitude="28.655486" copyright="" source="" title=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" width="180" background="1" textalpha="1" enabled="1" borderradius="1" wordwrap="1" textcolor="0x000000" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot distance="0.922038" id="Point01" tilt="-27.98" target="" description="" url="{node6}" title="" skinid="ht_node" pan="-220.59"/>
+      <hotspot distance="0.50293" id="Point02" tilt="-27.64" target="" description="" url="{node9}" title="" skinid="ht_node" pan="-180.33"/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" zoomspeed="2" zoomafteroutfov="20" enabled="1" blendtime="1" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomoutpause="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <transition zoomin="0" zoomspeed="2" zoomoutpause="0" zoomout="0" enabled="1" blendtime="1" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control sensitivity="1" invertwheel="0" hideabout="1" lockedkeyboard="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" speedwheel="1" contextprojections="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1">
-      <menulink text="About" url="https://arforce.github.io/"/>
+    <control lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" dblclickfullscreen="1" sensitivity="1" invertwheel="1" contextfullscreen="1" speedwheel="1" hideabout="1">
+      <menulink url="https://arforce.github.io/" text="About"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node9">
-    <input levelbiashidpi="1.000" overlap="1" width="2500" height="2500" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0">
-      <level preload="0" predecode="0" width="2500" height="2500"/>
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node9" hideabout="1">
+    <input height="2500" width="2500" leveltilesize="510" levelbias="0.400" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
+      <level height="2500" width="2500" predecode="0" preload="0"/>
+      <level height="1250" width="1250" predecode="0" preload="0"/>
+      <level height="625" width="625" predecode="0" preload="0"/>
+      <level height="312" width="312" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="100" tilt="-7.65" projection="4" pan="-34.14"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fov="30" tilt="-90" pan="0"/>
-      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <start tilt="-7.65" fov="100" projection="4" pan="-34.14"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="30" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="150" fovstereographic="270" scaletofit="1" pan="360"/>
     </view>
-    <userdata longitude="28.655492" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node9" heading="360" copyright="" latitude="41.077083" title=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label bordercolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" border="1" borderalpha="1" textcolor="0x000000" height="20" textalpha="1" borderradius="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" distance="0.50293" description="" tilt="-30.39" id="Point01" url="{node8}" pan="-211.49" title=""/>
+    <userdata author="" info="" tags="Портфолио" heading="360" customnodeid="" comment="" latitude="41.077083" datetime="" nodeid="node9" description="" longitude="28.655492" copyright="" source="" title=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" width="180" background="1" textalpha="1" enabled="1" borderradius="1" wordwrap="1" textcolor="0x000000" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot distance="0.50293" id="Point01" tilt="-30.39" target="" description="" url="{node8}" title="" skinid="ht_node" pan="-211.49"/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" zoomspeed="2" zoomafteroutfov="20" enabled="1" blendtime="1" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomoutpause="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <transition zoomin="0" zoomspeed="2" zoomoutpause="0" zoomout="0" enabled="1" blendtime="1" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control sensitivity="1" invertwheel="0" hideabout="1" lockedkeyboard="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" speedwheel="1" contextprojections="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1">
-      <menulink text="About" url="https://arforce.github.io/"/>
+    <control lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" dblclickfullscreen="1" sensitivity="1" invertwheel="1" contextfullscreen="1" speedwheel="1" hideabout="1">
+      <menulink url="https://arforce.github.io/" text="About"/>
     </control>
   </panorama>
-  <panorama hideabout="1" id="node10">
-    <input levelbiashidpi="1.000" overlap="1" width="2500" height="2500" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbias="0.400" levelingroll="0">
-      <level preload="0" predecode="0" width="2500" height="2500"/>
-      <level preload="0" predecode="0" width="1250" height="1250"/>
-      <level preload="0" predecode="0" width="625" height="625"/>
-      <level preload="1" predecode="1" width="312" height="312"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node10" hideabout="1">
+    <input height="2500" width="2500" leveltilesize="510" levelbias="0.400" overlap="1" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0">
+      <level height="2500" width="2500" predecode="0" preload="0"/>
+      <level height="1250" width="1250" predecode="0" preload="0"/>
+      <level height="625" width="625" predecode="0" preload="0"/>
+      <level height="312" width="312" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="100" tilt="-3.44" projection="4" pan="-4.84"/>
-      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fov="30" tilt="-90" pan="0"/>
-      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <start tilt="-3.44" fov="100" projection="4" pan="-4.84"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="30" pan="0"/>
+      <max fovfisheye="360" tilt="90" fov="150" fovstereographic="270" scaletofit="1" pan="360"/>
     </view>
-    <userdata longitude="28.655497" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node10" heading="360" copyright="" latitude="41.077069" title=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label bordercolor="0x000000" background="1" enabled="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" border="1" borderalpha="1" textcolor="0x000000" height="20" textalpha="1" borderradius="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" mode="0" handcursor="1" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot target="" skinid="ht_node" distance="1.55673" description="" tilt="-15.64" id="Point01" url="{node6}" pan="-92.46" title=""/>
+    <userdata author="" info="" tags="Портфолио" heading="360" customnodeid="" comment="" latitude="41.077069" datetime="" nodeid="node10" description="" longitude="28.655497" copyright="" source="" title=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" width="180" background="1" textalpha="1" enabled="1" borderradius="1" wordwrap="1" textcolor="0x000000" border="1" backgroundalpha="1" borderalpha="1" bordercolor="0x000000" backgroundcolor="0xffffff"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot distance="1.55673" id="Point01" tilt="-15.64" target="" description="" url="{node6}" title="" skinid="ht_node" pan="-92.46"/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" zoomspeed="2" zoomafteroutfov="20" enabled="1" blendtime="1" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomoutpause="0" zoomin="0" zoomout="0" zoomfov="20"/>
+    <transition zoomin="0" zoomspeed="2" zoomoutpause="0" zoomout="0" enabled="1" blendtime="1" zoomfov="20" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomafterinfov="90" zoomafteroutfov="20"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control sensitivity="1" invertwheel="0" hideabout="1" lockedkeyboard="0" rubberband="0" contextfullscreen="1" lockedkeyboardzoom="0" invertcontrol="1" speedwheel="1" contextprojections="1" lockedmouse="0" lockedwheel="0" dblclickfullscreen="1" simulatemass="1">
-      <menulink text="About" url="https://arforce.github.io/"/>
+    <control lockedmouse="0" lockedkeyboard="0" lockedwheel="0" invertcontrol="1" simulatemass="1" rubberband="0" contextprojections="1" lockedkeyboardzoom="0" dblclickfullscreen="1" sensitivity="1" invertwheel="1" contextfullscreen="1" speedwheel="1" hideabout="1">
+      <menulink url="https://arforce.github.io/" text="About"/>
     </control>
   </panorama>
   <masternode>
-    <userdata longitude="" customnodeid="" source="" author="" datetime="" comment="" tags="" info="" description="" nodeid="master" heading="0" copyright="" latitude="" title=""/>
+    <userdata author="" info="" tags="" heading="0" customnodeid="" comment="" latitude="" datetime="" nodeid="master" description="" longitude="" copyright="" source="" title=""/>
   </masternode>
 </tour>
