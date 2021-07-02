@@ -5,7 +5,6 @@
 
 function pano2vrSkin(player,base) {
 	
-player.setUseGyro(!(player.getUseGyro()));
 
 	player.addVariable('opt_hotspot_preview', 2, true);
 	player.addVariable('menu_open', 2, true);
@@ -1725,6 +1724,9 @@ player.setUseGyro(!(player.getUseGyro()));
 		me._gyro.onclick=function (e) {
 			player.setUseGyro(!(player.getUseGyro()));
 		}
+		
+		player.setUseGyro(!(player.getUseGyro()));
+
 		me._gyro.ggUpdatePosition=function (useTransition) {
 		}
 		el=me._gyro_on=document.createElement('div');
