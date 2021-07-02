@@ -9,10 +9,10 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="80" tilt="-18.8" projection="4" pan="-16.11"/>
+      <start fov="100" tilt="-18.8" projection="4" pan="-16.11"/>
       <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fov="60" tilt="-90" pan="0"/>
-      <max fov="140" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <min fov="30" tilt="-90" pan="0"/>
+      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
     <userdata longitude="28.655481" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="grgdfrgd" nodeid="node1" heading="360" copyright="" latitude="41.077078" title="door"/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -40,10 +40,10 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="80" tilt="-6.78" projection="4" pan="-8.79"/>
+      <start fov="100" tilt="-6.78" projection="4" pan="-8.79"/>
       <flyin fov="70" tilt="-6.78" projection="4" pan="-8.79"/>
-      <min fov="60" tilt="-90" pan="0"/>
-      <max fov="140" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <min fov="30" tilt="-90" pan="0"/>
+      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
     <userdata longitude="28.655497" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node2" heading="360" copyright="" latitude="41.077094" title=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -70,10 +70,10 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="80" tilt="-8.11" projection="4" pan="47.67"/>
+      <start fov="100" tilt="-8.11" projection="4" pan="47.67"/>
       <flyin fov="70" tilt="-8.11" projection="4" pan="47.67"/>
-      <min fov="60" tilt="-90" pan="0"/>
-      <max fov="140" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <min fov="30" tilt="-90" pan="0"/>
+      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
     <userdata longitude="28.655481" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node3" heading="360" copyright="" latitude="41.077075" title=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -98,10 +98,10 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="80" tilt="-6.79" projection="4" pan="134.75"/>
+      <start fov="100" tilt="-6.79" projection="4" pan="134.75"/>
       <flyin fov="70" tilt="-6.79" projection="4" pan="134.75"/>
-      <min fov="60" tilt="-90" pan="0"/>
-      <max fov="140" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <min fov="30" tilt="-90" pan="0"/>
+      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
     <userdata longitude="28.655497" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node4" heading="360" copyright="" latitude="41.077078" title=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -126,10 +126,10 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="80" tilt="-7.55" projection="4" pan="-19.22"/>
+      <start fov="100" tilt="-7.55" projection="4" pan="-19.22"/>
       <flyin fov="70" tilt="-7.55" projection="4" pan="-19.22"/>
-      <min fov="60" tilt="-90" pan="0"/>
-      <max fov="140" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <min fov="30" tilt="-90" pan="0"/>
+      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
     <userdata longitude="28.655481" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node5" heading="360" copyright="" latitude="41.077092" title=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -155,10 +155,10 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="80" tilt="-10.38" projection="4" pan="34.2"/>
+      <start fov="100" tilt="-10.38" projection="4" pan="34.2"/>
       <flyin fov="70" tilt="-10.38" projection="4" pan="34.2"/>
-      <min fov="60" tilt="-90" pan="0"/>
-      <max fov="140" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <min fov="30" tilt="-90" pan="0"/>
+      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
     <userdata longitude="28.655497" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node6" heading="360" copyright="" latitude="41.077083" title=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -186,10 +186,10 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="80" tilt="-14" projection="4" pan="81"/>
+      <start fov="100" tilt="-14" projection="4" pan="81"/>
       <flyin fov="70" tilt="-14" projection="4" pan="81"/>
-      <min fov="60" tilt="-90" pan="0"/>
-      <max fov="140" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <min fov="30" tilt="-90" pan="0"/>
+      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
     <userdata longitude="28.655486" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node7" heading="360" copyright="" latitude="41.077078" title=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -213,10 +213,10 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="80" tilt="-6.08" projection="4" pan="1.43"/>
+      <start fov="100" tilt="-6.08" projection="4" pan="1.43"/>
       <flyin fov="70" tilt="-6.08" projection="4" pan="1.43"/>
-      <min fov="60" tilt="-90" pan="0"/>
-      <max fov="140" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <min fov="30" tilt="-90" pan="0"/>
+      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
     <userdata longitude="28.655486" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node8" heading="360" copyright="" latitude="41.077083" title=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -241,10 +241,10 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="80" tilt="-7.65" projection="4" pan="-34.14"/>
+      <start fov="100" tilt="-7.65" projection="4" pan="-34.14"/>
       <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fov="60" tilt="-90" pan="0"/>
-      <max fov="140" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <min fov="30" tilt="-90" pan="0"/>
+      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
     <userdata longitude="28.655492" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node9" heading="360" copyright="" latitude="41.077083" title=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -268,10 +268,10 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="360" fovmode="0">
-      <start fov="80" tilt="-3.44" projection="4" pan="-4.84"/>
+      <start fov="100" tilt="-3.44" projection="4" pan="-4.84"/>
       <flyin fov="170" tilt="-90" projection="9" pan="0"/>
-      <min fov="60" tilt="-90" pan="0"/>
-      <max fov="140" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
+      <min fov="30" tilt="-90" pan="0"/>
+      <max fov="150" fovstereographic="270" fovfisheye="360" scaletofit="1" tilt="90" pan="360"/>
     </view>
     <userdata longitude="28.655497" customnodeid="" source="" author="" datetime="" comment="" tags="Портфолио" info="" description="" nodeid="node10" heading="360" copyright="" latitude="41.077069" title=""/>
     <hotspots width="180" height="20" wordwrap="1">
