@@ -3146,5 +3146,4 @@ function pano2vrSkin(player,base) {
 	
 		
 		
-		setTimeout(function () { player.setUseGyro(!(player.getUseGyro())); }, 3500)
 };

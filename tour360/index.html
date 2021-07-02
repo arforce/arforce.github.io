@@ -50,6 +50,8 @@
 		
 			window.addEventListener("load", function() {
 				pano.readConfigUrlAsync("pano.xml");
+				
+				setTimeout(function () { pano.setUseGyro(!(pano.getUseGyro())); }, 3000)
 			});
 		</script>
 		<noscript>
