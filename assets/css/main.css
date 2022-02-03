@@ -39,6 +39,17 @@ blockquote, q {
     content: '';
     content: none; }
 
+
+
+.en {
+	display: inline-block;
+}
+.ru {
+	display: none;
+}
+
+
+
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -2271,3 +2282,6 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+
+
+
