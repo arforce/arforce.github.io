@@ -35,7 +35,7 @@
   </button>
 
   <div id="ar-prompt">
-    <img src="../../assets/hand.png">
+    <img src="hand.png">
   </div>
 
   <button id="ar-failure">
@@ -45,19 +45,19 @@
   <div class="slider">
     <div class="slides">
       <button class="slide selected" onclick="switchSrc(this, 'Chair')"
-        style="background-image: url('../../assets/ShopifyModels/Chair.png');">
+        style="background-image: url('1.png');">
 
       <button class="slide" onclick="switchSrc(this, 'Mixer')"
         style="background-image: url('../../assets/ShopifyModels/Mixer.png');">
 
-      <button class="slide" onclick="switchSrc(this, 'GeoPlanter')"
-        style="background-image: url('../../assets/ShopifyModels/GeoPlanter.png');">
+      <!-- <button class="slide" onclick="switchSrc(this, 'GeoPlanter')" -->
+        <!-- style="background-image: url('../../assets/ShopifyModels/GeoPlanter.png');"> -->
       
-      <button class="slide" onclick="switchSrc(this, 'ToyTrain')"
-        style="background-image: url('../../assets/ShopifyModels/ToyTrain.png');">
+      <!-- <button class="slide" onclick="switchSrc(this, 'ToyTrain')" -->
+        <!-- style="background-image: url('../../assets/ShopifyModels/ToyTrain.png');"> -->
       
-      <button class="slide" onclick="switchSrc(this, 'Canoe')"
-        style="background-image: url('../../assets/ShopifyModels/Canoe.png');">    
+      <!-- <button class="slide" onclick="switchSrc(this, 'Canoe')" -->
+        <!-- style="background-image: url('../../assets/ShopifyModels/Canoe.png');">     -->
     </div>
   </div>
 </model-viewer>
@@ -213,180 +213,180 @@
       </div>
     </div>
 
-    <div class="sample">
-      <div id="ar" class="demo"></div>
-      <div class="content">
-        <div class="wrapper">
-          <div class="heading">
-            <h2 class="demo-title">Augmented Reality</h2>
-            <h4>This demonstrates several augmented reality modes, including
-            <code>webxr</code>, <code>scene-viewer</code>,
-            <code>quick-look</code> &amp; the accompanying attributes,
-            <code>ar</code>, <code>ar-scale</code>,
-            <code>ios-src</code>.</h4>
-            <p>
-              Note that WebXR mode requires the page be served on HTTPS and if
-              enclosed in an iframe, that iframe must allow your origin the
-              <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy/xr-spatial-tracking">
-                <code>xr-spatial-tracking</code></a> policy.
-            </p>
-            <p>
-              In this example an <code>ios-src</code> attribute is specified,
-              which enables Quick Look on iOS even if it is not specified in
-              <code>ar-modes</code>. This requires an extra download, but can be
-              useful if the auto-generated USDZ is not adequate (for instance it
-              does not support animations yet). Also, this source can be either
-              a .usdz or a .reality file.
-            </p>
-          </div>
-          <example-snippet stamp-to="ar" highlight-as="html">
-            <template>
-<model-viewer src="../../shared-assets/models/Astronaut.glb" ar ar-scale="fixed" camera-controls alt="A 3D model of an astronaut" skybox-image="../../shared-assets/environments/aircraft_workshop_01_1k.hdr" ios-src="../../shared-assets/models/Astronaut.usdz" xr-environment></model-viewer>
-            </template>
-          </example-snippet>
+    <!-- <div class="sample"> -->
+      <!-- <div id="ar" class="demo"></div> -->
+      <!-- <div class="content"> -->
+        <!-- <div class="wrapper"> -->
+          <!-- <div class="heading"> -->
+            <!-- <h2 class="demo-title">Augmented Reality</h2> -->
+            <!-- <h4>This demonstrates several augmented reality modes, including -->
+            <!-- <code>webxr</code>, <code>scene-viewer</code>, -->
+            <!-- <code>quick-look</code> &amp; the accompanying attributes, -->
+            <!-- <code>ar</code>, <code>ar-scale</code>, -->
+            <!-- <code>ios-src</code>.</h4> -->
+            <!-- <p> -->
+              <!-- Note that WebXR mode requires the page be served on HTTPS and if -->
+              <!-- enclosed in an iframe, that iframe must allow your origin the -->
+              <!-- <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy/xr-spatial-tracking"> -->
+                <!-- <code>xr-spatial-tracking</code></a> policy. -->
+            <!-- </p> -->
+            <!-- <p> -->
+              <!-- In this example an <code>ios-src</code> attribute is specified, -->
+              <!-- which enables Quick Look on iOS even if it is not specified in -->
+              <!-- <code>ar-modes</code>. This requires an extra download, but can be -->
+              <!-- useful if the auto-generated USDZ is not adequate (for instance it -->
+              <!-- does not support animations yet). Also, this source can be either -->
+              <!-- a .usdz or a .reality file. -->
+            <!-- </p> -->
+          <!-- </div> -->
+          <!-- <example-snippet stamp-to="ar" highlight-as="html"> -->
+            <!-- <template> -->
+<!-- <model-viewer src="../../shared-assets/models/Astronaut.glb" ar ar-scale="fixed" camera-controls alt="A 3D model of an astronaut" skybox-image="../../shared-assets/environments/aircraft_workshop_01_1k.hdr" ios-src="../../shared-assets/models/Astronaut.usdz" xr-environment></model-viewer> -->
+            <!-- </template> -->
+          <!-- </example-snippet> -->
 
-        </div>
-      </div>
-    </div>
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
 
-    <div class="sample">
-      <div id="sceneViewer" class="demo"></div>
-      <div class="content">
-        <div class="wrapper">
-          <div class="heading">
-            <h2 class="demo-title">Scene Viewer</h2>
-            <h4>Here the Scene Viewer app is given priority, to make it easier to compare with the default WebXR, above.</h4>
-          </div>
-          <example-snippet stamp-to="sceneViewer" highlight-as="html">
-            <template>
-<model-viewer id="model-viewer" src="../../shared-assets/models/Astronaut.glb" ar ar-modes="scene-viewer webxr" camera-controls alt="A 3D model of an astronaut" skybox-image="../../shared-assets/environments/aircraft_workshop_01_1k.hdr">
-  <div id="error" class="hide">AR is not supported on this device</div>
-</model-viewer>
-<script>
-  document.querySelector("#model-viewer").addEventListener('ar-status', (event) => {
-    if(event.detail.status === 'failed'){
-      const error = document.querySelector("#error");
-      error.classList.remove('hide');
-      error.addEventListener('transitionend',(event) => {
-        error.classList.add('hide');
-      });
-    }
-  });
-</script>
-<style>
-  #error {
-    background-color: #ffffffdd;
-    border-radius: 16px;
-    padding: 16px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate3d(-50%, -50%, 0);
-    transition: opacity 0.3s;
-  }
-  #error.hide {
-    opacity: 0;
-    visibility: hidden;
-    transition: visibility 2s, opacity 1s 1s;
-  }
-</style>
-            </template>
-          </example-snippet>
-        </div>
-      </div>
-    </div>
+    <!-- <div class="sample"> -->
+      <!-- <div id="sceneViewer" class="demo"></div> -->
+      <!-- <div class="content"> -->
+        <!-- <div class="wrapper"> -->
+          <!-- <div class="heading"> -->
+            <!-- <h2 class="demo-title">Scene Viewer</h2> -->
+            <!-- <h4>Here the Scene Viewer app is given priority, to make it easier to compare with the default WebXR, above.</h4> -->
+          <!-- </div> -->
+          <!-- <example-snippet stamp-to="sceneViewer" highlight-as="html"> -->
+            <!-- <template> -->
+<!-- <model-viewer id="model-viewer" src="../../shared-assets/models/Astronaut.glb" ar ar-modes="scene-viewer webxr" camera-controls alt="A 3D model of an astronaut" skybox-image="../../shared-assets/environments/aircraft_workshop_01_1k.hdr"> -->
+  <!-- <div id="error" class="hide">AR is not supported on this device</div> -->
+<!-- </model-viewer> -->
+<!-- <script> -->
+  <!-- document.querySelector("#model-viewer").addEventListener('ar-status', (event) => { -->
+    <!-- if(event.detail.status === 'failed'){ -->
+      <!-- const error = document.querySelector("#error"); -->
+      <!-- error.classList.remove('hide'); -->
+      <!-- error.addEventListener('transitionend',(event) => { -->
+        <!-- error.classList.add('hide'); -->
+      <!-- }); -->
+    <!-- } -->
+  <!-- }); -->
+<!-- </script> -->
+<!-- <style> -->
+  <!-- #error { -->
+    <!-- background-color: #ffffffdd; -->
+    <!-- border-radius: 16px; -->
+    <!-- padding: 16px; -->
+    <!-- position: absolute; -->
+    <!-- left: 50%; -->
+    <!-- top: 50%; -->
+    <!-- transform: translate3d(-50%, -50%, 0); -->
+    <!-- transition: opacity 0.3s; -->
+  <!-- } -->
+  <!-- #error.hide { -->
+    <!-- opacity: 0; -->
+    <!-- visibility: hidden; -->
+    <!-- transition: visibility 2s, opacity 1s 1s; -->
+  <!-- } -->
+<!-- </style> -->
+            <!-- </template> -->
+          <!-- </example-snippet> -->
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
 
-    <div class="sample">
-      <div id="wall" class="demo"></div>
-      <div class="content">
-        <div class="wrapper">
-          <div class="heading">
-            <h2 class="demo-title">Placing on a Wall</h2>
-            <h4>This demonstrates the <code>ar-placement</code> attribute, which defaults to "floor", but using "wall" gives a different AR placement experience.</h4>
-          </div>
-          <example-snippet stamp-to="wall" highlight-as="html">
-            <template>
-<model-viewer src="../../assets/boom_2_.glb" ar ar-placement="wall" ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model of some wall art"></model-viewer>
-            </template>
-          </example-snippet>
+    <!-- <div class="sample"> -->
+      <!-- <div id="wall" class="demo"></div> -->
+      <!-- <div class="content"> -->
+        <!-- <div class="wrapper"> -->
+          <!-- <div class="heading"> -->
+            <!-- <h2 class="demo-title">Placing on a Wall</h2> -->
+            <!-- <h4>This demonstrates the <code>ar-placement</code> attribute, which defaults to "floor", but using "wall" gives a different AR placement experience.</h4> -->
+          <!-- </div> -->
+          <!-- <example-snippet stamp-to="wall" highlight-as="html"> -->
+            <!-- <template> -->
+<!-- <model-viewer src="../../assets/boom_2_.glb" ar ar-placement="wall" ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model of some wall art"></model-viewer> -->
+            <!-- </template> -->
+          <!-- </example-snippet> -->
 
-        </div>
-      </div>
-    </div>
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
 
-    <div class="sample">
-      <div id="customButton" class="demo"></div>
-      <div class="content">
-        <div class="wrapper">
-          <h4 id="intro"><span class="font-medium">Using Slots In &lt;model-viewer&gt;. </span>This page demonstrates how you can change parts of &lt;model-viewer&gt; using web component slots.</h4>
-          <div class="heading">
-            <h2 class="demo-title">Custom AR Button</h2>
-            <h4></h4>
-          </div>
-          <example-snippet stamp-to="customButton" highlight-as="html">
-            <template>
-<model-viewer ar ar-modes="webxr scene-viewer quick-look" camera-controls src="../../shared-assets/models/Astronaut.glb" alt="A 3D model of an astronaut">
-  <button slot="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
-      👋 Activate AR
-  </button>
-</model-viewer>
-            </template>
-          </example-snippet>
+    <!-- <div class="sample"> -->
+      <!-- <div id="customButton" class="demo"></div> -->
+      <!-- <div class="content"> -->
+        <!-- <div class="wrapper"> -->
+          <!-- <h4 id="intro"><span class="font-medium">Using Slots In &lt;model-viewer&gt;. </span>This page demonstrates how you can change parts of &lt;model-viewer&gt; using web component slots.</h4> -->
+          <!-- <div class="heading"> -->
+            <!-- <h2 class="demo-title">Custom AR Button</h2> -->
+            <!-- <h4></h4> -->
+          <!-- </div> -->
+          <!-- <example-snippet stamp-to="customButton" highlight-as="html"> -->
+            <!-- <template> -->
+<!-- <model-viewer ar ar-modes="webxr scene-viewer quick-look" camera-controls src="../../shared-assets/models/Astronaut.glb" alt="A 3D model of an astronaut"> -->
+  <!-- <button slot="ar-button" style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; "> -->
+      <!-- 👋 Activate AR -->
+  <!-- </button> -->
+<!-- </model-viewer> -->
+            <!-- </template> -->
+          <!-- </example-snippet> -->
   
-          <p>
-              Since this slot will only appear on an AR enabled device screenshots are provided below. They compare the &lt;model-viewer&gt; default button in the bottom right and a custom button ("👋 Activate AR") in the top right of the viewport, with a custom style.
-          </p>
+          <!-- <p> -->
+              <!-- Since this slot will only appear on an AR enabled device screenshots are provided below. They compare the &lt;model-viewer&gt; default button in the bottom right and a custom button ("👋 Activate AR") in the top right of the viewport, with a custom style. -->
+          <!-- </p> -->
   
-          <img class="eg-image" src="../../assets/eg-default-ar-button.jpg" alt="Image displaying the default <model-viewer> button of a box with slits cut out in the lower-right, next to the example astronaut model." />
-          <img class="eg-image" src="../../assets/eg-custom-ar-button.jpg" alt="Image displaying <model-viewer> with a custom button reading '👋 Activate AR'." / >
-        </div>
-      </div>
-    </div>
+          <!-- <img class="eg-image" src="../../assets/eg-default-ar-button.jpg" alt="Image displaying the default <model-viewer> button of a box with slits cut out in the lower-right, next to the example astronaut model." /> -->
+          <!-- <img class="eg-image" src="../../assets/eg-custom-ar-button.jpg" alt="Image displaying <model-viewer> with a custom button reading '👋 Activate AR'." / > -->
+        <!-- </div> -->
+      <!-- </div> -->
+    <!-- </div> -->
   
-    <div class="sample">
-      <div id="transparentBackground" class="demo"></div>
-        <div class="content">
-          <div class="wrapper">
-            <div class="heading">
-              <h2 class="demo-title">Transparent Background</h2>
-              <h4></h4>
-            </div>
-            <example-snippet stamp-to="transparentBackground" highlight-as="html">
-              <template>
-<div class="demo" style="background: linear-gradient(#ffffff, #ada996); overflow-x: hidden;">
-  <span style="position: absolute; text-align: center; font-size: 100px; line-height: 100px; left: 50%; transform: translateX(-50%);">Background<br>is visible<br>through<br>transparent<br>objects.</span>
-  <model-viewer camera-controls src="../../shared-assets/models/glTF-Sample-Models/2.0/ToyCar/glTF-Binary/ToyCar.glb" ar ar-modes="webxr scene-viewer quick-look" alt="A 3D transparency test" style="background-color: unset;"></model-viewer>
-</div>
-              </template>
-            </example-snippet>
-          </div>
-        </div>
-      </div>
+    <!-- <div class="sample"> -->
+      <!-- <div id="transparentBackground" class="demo"></div> -->
+        <!-- <div class="content"> -->
+          <!-- <div class="wrapper"> -->
+            <!-- <div class="heading"> -->
+              <!-- <h2 class="demo-title">Transparent Background</h2> -->
+              <!-- <h4></h4> -->
+            <!-- </div> -->
+            <!-- <example-snippet stamp-to="transparentBackground" highlight-as="html"> -->
+              <!-- <template> -->
+<!-- <div class="demo" style="background: linear-gradient(#ffffff, #ada996); overflow-x: hidden;"> -->
+  <!-- <span style="position: absolute; text-align: center; font-size: 100px; line-height: 100px; left: 50%; transform: translateX(-50%);">Background<br>is visible<br>through<br>transparent<br>objects.</span> -->
+  <!-- <model-viewer camera-controls src="../../shared-assets/models/glTF-Sample-Models/2.0/ToyCar/glTF-Binary/ToyCar.glb" ar ar-modes="webxr scene-viewer quick-look" alt="A 3D transparency test" style="background-color: unset;"></model-viewer> -->
+<!-- </div> -->
+              <!-- </template> -->
+            <!-- </example-snippet> -->
+          <!-- </div> -->
+        <!-- </div> -->
+      <!-- </div> -->
 
-    <div class="footer">
-      <ul>
-        <li class="attribution">
-          <a href="https://poly.google.com/view/dLHpzNdygsg">Astronaut</a> by <a href="https://poly.google.com/user/4aEd8rQgKu2">Poly</a>,
-          licensed under <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a>.
-        </li>
-        <li class="attribution">
-          Chair, Mixer, GeoPlanter, ToyTrain, Canoe ©Copyright 2020 <a href="https://www.shopify.com/">Shopify Inc.</a>,
-          licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>.
-        </li>
-        <li class="attribution">
-          <a href="https://kaboomlaser.com/products/test">Laser Tree</a> by <a href="https://kaboomlaser.com/">Kaboomlaser</a>,
-          licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>.
-        </li>
-      </ul>
+    <!-- <div class="footer"> -->
+      <!-- <ul> -->
+        <!-- <li class="attribution"> -->
+          <!-- <a href="https://poly.google.com/view/dLHpzNdygsg">Astronaut</a> by <a href="https://poly.google.com/user/4aEd8rQgKu2">Poly</a>, -->
+          <!-- licensed under <a href="https://creativecommons.org/licenses/by/2.0/">CC-BY</a>. -->
+        <!-- </li> -->
+        <!-- <li class="attribution"> -->
+          <!-- Chair, Mixer, GeoPlanter, ToyTrain, Canoe ©Copyright 2020 <a href="https://www.shopify.com/">Shopify Inc.</a>, -->
+          <!-- licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>. -->
+        <!-- </li> -->
+        <!-- <li class="attribution"> -->
+          <!-- <a href="https://kaboomlaser.com/products/test">Laser Tree</a> by <a href="https://kaboomlaser.com/">Kaboomlaser</a>, -->
+          <!-- licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>. -->
+        <!-- </li> -->
+      <!-- </ul> -->
 
-      <div style="margin-top:24px;" class="copyright">©Copyright 2018-2020 Google Inc. Licensed under the Apache License 2.0.</div>
-      <div id='footer-links'></div>
-    </div>
+      <!-- <div style="margin-top:24px;" class="copyright">©Copyright 2018-2020 Google Inc. Licensed under the Apache License 2.0.</div> -->
+      <!-- <div id='footer-links'></div> -->
+    <!-- </div> -->
   </div>
 </div>
 
-  <script type="module" src="../../examples/built/docs-and-examples.js">
-  </script>
+  <!-- <script type="module" src="../../examples/built/docs-and-examples.js"> -->
+  <!-- </script> -->
   <script type="module">
     (() => { init('examples-augmentedreality'); })();
     (() => { initFooterLinks();})();
