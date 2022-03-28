@@ -31,14 +31,18 @@
 </head>
 <body>
 
-<div class="examples-page"> 
+<div class="examples-page">  
+  <div id="toggle"></div>
   
   <div class="examples-container">
-
+    <div class="sample">
+      <div id="webXR" class="demo"></div>
+      <div class="content">
+        <div class="wrapper">
   
 
-          <!-- <example-snippet stamp-to="webXR" highlight-as="html"> -->
-            <!-- <template> -->
+          <example-snippet stamp-to="webXR" highlight-as="html">
+            <template>
 <model-viewer src="1.gltf" poster="1.jpg" shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model carousel">
   
   <button slot="ar-button" id="ar-button">
@@ -218,9 +222,11 @@
   }
 
 </style>
-            <!-- </template> -->
-          <!-- </example-snippet> -->
-
+            </template>
+          </example-snippet>
+        </div>
+      </div>
+    </div>
 
 
 
