@@ -1,19 +1,3 @@
-<!--
-/* @license
- * Copyright 2020 Google Inc. All Rights Reserved.
- * Licensed under the Apache License, Version 2.0 (the 'License');
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an 'AS IS' BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,16 +10,8 @@
   <link rel="shortcut icon" type="image/png" href="../../assets/favicon.png"/>
 
   <!-- 💁 OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
-  <script src="../../node_modules/focus-visible/dist/focus-visible.js" defer></script>
+  <script src="focus-visible.js" defer></script>
 
-  <script>
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-    ga('create', 'UA-169901325-1', { 'storage': 'none' });
-    ga('set', 'referrer', document.referrer.split('?')[0]);
-    ga('set', 'anonymizeIp', true);
-    ga('send', 'pageview');
-  </script>
-  <script async src='https://www.google-analytics.com/analytics.js'></script>
 </head>
 <body>
 
@@ -49,36 +25,7 @@
       <div class="content">
         <div class="wrapper">
   
-          <div class="heading">
-            <h2 class="demo-title">WebXR Demo</h2>
-            <h4>Customize a WebXR Augmented Reality session with HTML, CSS, and JS in Chrome 83+ on Android.</h4>
-            <p>
-              This demonstrates the use of slots, as well as shared and unshared DOM between the 3D and AR modes.
-            </p>
-            <p>
-              A slot is used here for replacing the default AR button with a custom one - in this case
-              the one recommended by SceneViewer. This is not the default only because this way localization of the text is left
-              to whatever system you prefer to use. Note the AR button will only be visible on AR-capable devices.
-            </p>
-            <p>
-              By styling based on the <code>ar-status</code> attribute, you can add DOM that only shows up in certain modes.
-              In this case a CSS animation has been added to prompt the user to move their phone around to help ARCore find
-              their floor so that the object can be placed. User studies show a prompt like this is an important part of 
-              guiding users to a good AR experience.
-            </p>
-            <p>
-              Finally, even complex DOM can easily function in both 3D and AR modes, including interactions via script. In 
-              this case a simple carousel of models is demonstrated. Unfortunately none of this DOM content can flow into 
-              SceneViewer or QuickLook, as these are native apps. Only through WebXR, now our default AR mode, can this be
-              achieved, as the AR session is still inside of the browser. This also removes the need to redownload the model.
-            </p>
-            <p>
-              Note that by specifically including <code>quick-look</code> in
-              <code>ar-modes</code>, but not specifying an <code>ios-src</code>,
-              the USDZ will instead be auto-generated when the user clicks the
-              AR button on iOS to launch Quick Look. 
-            </p>
-          </div>
+
           <example-snippet stamp-to="webXR" highlight-as="html">
             <template>
 <model-viewer src="1.gltf" poster="Chair.png" shadow-intensity="1" ar ar-modes="webxr scene-viewer quick-look" camera-controls alt="A 3D model carousel">
@@ -452,7 +399,7 @@
 
   <!-- Loads <model-viewer> on modern browsers: -->
   <script type="module"
-      src="../../node_modules/@google/model-viewer/dist/model-viewer.min.js">
+      src="model-viewer.min.js">
   </script>
 
 </body>
