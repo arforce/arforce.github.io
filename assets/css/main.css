@@ -96,16 +96,16 @@ input, select, textarea {
 		background: #f2f5f3;
 	}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
+		/* body.is-preload *, body.is-preload *:before, body.is-preload *:after { */
+			/* -moz-animation: none !important; */
+			/* -webkit-animation: none !important; */
+			/* -ms-animation: none !important; */
+			/* animation: none !important; */
+			/* -moz-transition: none !important; */
+			/* -webkit-transition: none !important; */
+			/* -ms-transition: none !important; */
+			/* transition: none !important; */
+		/* } */
 
 			
 			
@@ -1969,7 +1969,8 @@ input, select, textarea {
 			}
 
 				ul.contact li a:before {
-					color: #f2f5f3;
+					/* color: #f2f5f3; */
+					color: #fff;
 					font-size: 32px;
 					line-height: 48px;
 				}
