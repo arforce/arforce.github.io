@@ -2002,6 +2002,10 @@ input, select, textarea {
 				ul.contact li:hover a.fa-tiktok {
 					background-color: #000;
 				}
+				
+				ul.contact li:hover a.fa-patreon {
+					background-color: #ff424d;
+				}
 
 			ul.contact li:active {
 				top: 0;
