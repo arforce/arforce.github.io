@@ -122,11 +122,19 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		color: #6b7770;
 		margin: 0 0 0.5em 0;
 		line-height: 1.3;
 	}
+	
+	/* h3 { */
+		/* font-family: 'Open Sans Condensed', sans-serif; */
+		/* font-weight: 700; */
+		/* color: #6b7770; */
+		/* margin: 0 0 0.5em 0; */
+		/* line-height: 1.3; */
+	/* } */
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		text-decoration: none;
@@ -282,6 +290,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		justify-content: center;
 	}
 
 		.row > * {
@@ -1776,7 +1785,7 @@ input, select, textarea {
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 2em 0;
+			margin: 0 0 1em 0;
 		}
 
 		.image.left {
@@ -1997,6 +2006,16 @@ input, select, textarea {
 
 				ul.contact li:hover a.fa-instagram {
 					background-color: #cd3a8a;
+				}
+				
+				ul.contact li:hover a.fa-snapchat {
+					background-color: #fffc00;
+					    color: white;
+						text-shadow:
+						-1px -1px 0 #999,
+						1px -1px 0 #999,
+						-1px 1px 0 #999,
+						1px 1px 0 #999;
 				}
 
 				ul.contact li:hover a.fa-tiktok {
@@ -2220,7 +2239,7 @@ input, select, textarea {
 	}
 
 		.box.highlight h2 {
-			font-size: 3em;
+			font-size: 2.5em;
 			margin: 0 0 0.25em 0;
 		}
 
@@ -2231,6 +2250,7 @@ input, select, textarea {
 
 	.box.feature {
 		text-align: center;
+		margin: 0 0 3em 0;
 	}
 
 	.box.post header {
