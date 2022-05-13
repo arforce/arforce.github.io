@@ -94,7 +94,7 @@ input, select, textarea {
 
 	body {
 		background: #f2f5f3;
-		border-top: solid 10px #FFD100;
+		border-top: solid 10px #0082D1;
 	}
 
 		/* body.is-preload *, body.is-preload *:before, body.is-preload *:after { */
@@ -2606,8 +2606,8 @@ input, select, textarea {
 
 	#main {
 		background: #fff;
-		border-top: solid 10px #0082D1;
-		border-bottom: solid 5px #FFD100;
+		border-top: solid 10px #FFD100;
+		/* border-bottom: solid 5px #FFD100; */
 		/* border-bottom: solid 5px #0082D1; */
 		/* border-top-width: 35px; */
 		border-bottom-width: 10px;
