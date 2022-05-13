@@ -94,6 +94,7 @@ input, select, textarea {
 
 	body {
 		background: #f2f5f3;
+		border-top: solid 10px #FFD100;
 	}
 
 		/* body.is-preload *, body.is-preload *:before, body.is-preload *:after { */
@@ -118,6 +119,8 @@ input, select, textarea {
 		/* line-height: 2em; */
 		line-height: 1.75em;
 	}
+	
+	
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Open Sans Condensed', sans-serif;
@@ -147,7 +150,8 @@ input, select, textarea {
 
 		h2.major {
 			position: relative;
-			border-top: solid 5px #FFD100;
+			/* border-top: solid 5px #FFD100; */
+			border-top: solid 5px #0082D1;
 			font-size: 1.65em;
 			text-align: center;
 			margin: 0 0 2em 0;
@@ -2603,7 +2607,8 @@ input, select, textarea {
 	#main {
 		background: #fff;
 		border-top: solid 10px #0082D1;
-		border-bottom: solid 5px #0082D1;
+		border-bottom: solid 5px #FFD100;
+		/* border-bottom: solid 5px #0082D1; */
 		/* border-top-width: 35px; */
 		border-bottom-width: 10px;
 		padding: 6em 0 3em 0;
@@ -2646,7 +2651,8 @@ input, select, textarea {
 		background: #FFD100;
 		padding: 0.75em 2em 0.75em 2em;
 		border-radius: 8px;
-		color: #0082D1;
+		/* color: #0082D1; */
+		color: #000;
 		margin: 4em 0 0 0;
 	}
 
@@ -2659,7 +2665,7 @@ input, select, textarea {
 		}
 
 			#copyright .menu li {
-				border-color: #0082D1;
+				border-color: #000;
 				border-width: 2px;
 				line-height: 1em;
 			}
