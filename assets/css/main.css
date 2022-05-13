@@ -3164,6 +3164,28 @@ input, select, textarea {
 
 /* Small */
 
+	@media screen and (max-width: 470px) {
+
+			
+			
+			ul.contact li a {
+				width: 35px;
+				height: 35px;
+			}
+			
+			
+				ul.contact li a:before {
+					/* color: #f2f5f3; */
+					color: #fff;
+					font-size: 20px;
+					line-height: 35px;
+				}
+				
+				
+
+	}
+/* Small */
+
 	@media screen and (max-width: 360px) {
 
 		/* Basic */
@@ -3171,5 +3193,21 @@ input, select, textarea {
 			body, input, textarea, select {
 				font-size: 10pt;
 			}
+			
+				
+			
+			ul.contact li a {
+				width: 30px;
+				height: 30px;
+			}
+			
+			
+				ul.contact li a:before {
+					/* color: #f2f5f3; */
+					color: #fff;
+					font-size: 16px;
+					line-height: 30px;
+				}
+				
 
 	}
